@@ -1,7 +1,7 @@
 var lbasket = 0;
 var rbasket = 0;
 var timer;
-var current = 1200;
+var current = 120000;
 var scoreText;
 var scoreText2;
 var player1;
@@ -92,7 +92,7 @@ scoreText = game.add.text(16, 16, 'score:' + rbasket, { fontSize: '32px', fill: 
 scoreText2 = game.add.text(1000, 16, 'score:' + lbasket, { fontSize: '32px', fill: '#000' });
     
     timer = game.time.create(false);
-    timer.add(1200, endgame, this);
+    timer.add(120000, endgame, this);
     timer.start();
 }
 
