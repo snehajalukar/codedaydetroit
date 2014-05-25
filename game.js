@@ -226,12 +226,12 @@ function shoot() {
 
 function Lscore(basketball, leftgoal) {
     lbasket += 1;
-    scoreText2.text = 'Mario Score: ' + lbasket;
+    scoreText2.text = 'Koby Score: ' + lbasket;
    
  }
 function Rscore(basketball, rightgoal) {
     rbasket += 1;
-    scoreText.text = 'Koby Score: ' + rbasket;
+    scoreText.text = 'Mario Score: ' + rbasket;
 }
 
 function endgame() {
