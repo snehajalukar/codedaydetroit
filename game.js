@@ -247,5 +247,5 @@ function endgame() {
 }
 
 function render() {
-game.debug.text("Time Remaining: " + timer.duration.toFixed(0), 10, 20,{ fontSize: '32px', fill: '#000' });   
+game.add.text(game.world.centerx-200,10"Time Remaining: " + timer.duration.toFixed, { fontSize: '20px', fill: '#000' });  
 }
