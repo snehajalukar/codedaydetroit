@@ -226,12 +226,12 @@ function shoot() {
 
 function Lscore(basketball, leftgoal) {
     lbasket += 1;
-    scoreText2.text = 'Score: ' + lbasket;
+    scoreText2.text = 'Mario Score: ' + lbasket;
    
  }
 function Rscore(basketball, rightgoal) {
     rbasket += 1;
-    scoreText.text = 'Score: ' + rbasket;
+    scoreText.text = 'Koby Score: ' + rbasket;
 }
 
 function endgame() {
@@ -247,5 +247,4 @@ function endgame() {
 }
 
 function render() {
-game.debug.text("Time Remaining: " + timer.duration.toFixed(0), game.world.centerX+10, 20);   
-}
+game.debug.text("Time Remaining: " + timer.duration.toFixed(0), game.world.centerX+10, 20);   }
