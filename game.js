@@ -236,10 +236,10 @@ function Rscore(basketball, rightgoal) {
 
 function endgame() {
     if(lbasket>rbasket) {
-           game.add.text(game.world.centerX-15, 16, 'Mario Wins', { fontSize: '32px', fill: '#000' });
+           game.add.text(game.world.centerX-15, 16, 'Koby Wins', { fontSize: '32px', fill: '#000' });
     }
     if(rbasket>lbasket){
-        game.add.text(game.world.centerX-15, 16, 'Koby Wins', { fontSize: '32px', fill: '#000' });
+        game.add.text(game.world.centerX-15, 16, 'Mario Wins', { fontSize: '32px', fill: '#000' });
     }
     if(lbasket == rbasket) {
         game.add.text(game.world.centerX-300, 16, 'You are both terrible at this game!!!!', { fontSize: '32px', fill: '#000' });
@@ -247,5 +247,5 @@ function endgame() {
 }
 
 function render() {
-game.debug.text("" + timer.duration.toFixed(0), 10, 20);   
+game.debug.text("Time Remaining: " + timer.duration.toFixed(0), 10, 20,{ fontSize: '32px', fill: '#000' });   
 }
