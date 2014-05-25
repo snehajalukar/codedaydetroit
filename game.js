@@ -201,7 +201,7 @@ function normal() {
     {
         player2.body.velocity.x = 150;
     }
-    if (game.input.keyboard.isDown(Phaser.Keyboard.G))
+    if (game.input.keyboard.isDown(Phaser.Keyboard.W))
     {
         player2.body.velocity.y = -150; 
     }
