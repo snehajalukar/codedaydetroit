@@ -144,7 +144,7 @@ function grabball(player1, basketball) {
         basketball.body.velocity.y = -150; 
     }  
     
-    if(game.input.keyboard.isDown(Phaser.Keyboard.SHIFT)) {
+    if(game.input.keyboard.isDown(Phaser.Keyboard.ENTER)) {
         shoot();
     }
 }
