@@ -211,7 +211,7 @@ function normal() {
 function shoot() {
     if(zcounter != 0) {
         basketball.body.gravity.y = 180;
-        basketball.body.velocity.x = 100000;
+        basketball.body.velocity.x = 300;
         zcounter = zcounter - 1;
     }
 }
