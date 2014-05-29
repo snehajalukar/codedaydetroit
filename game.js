@@ -89,7 +89,7 @@ player2.body.collideWorldBounds = true;
 basketball.body.collideWorldBounds = true;
     
 scoreText = game.add.text(16, 16, 'score:' + rbasket, { fontSize: '32px', fill: '#000' });
-scoreText2 = game.add.text(1000, 16, 'score:' + lbasket, { fontSize: '32px', fill: '#000' });
+scoreText2 = game.add.text(900, 16, 'score:' + lbasket, { fontSize: '32px', fill: '#000' });
     
     timer = game.time.create(false);
     timer.add(120000, endgame, this);
